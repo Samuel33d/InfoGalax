@@ -2,11 +2,9 @@
 import "./CardPhrase.css";
 import { PiArrowClockwiseBold } from "react-icons/pi";
 
-console
+console;
 
 const CardPhrase = ({ quote, handleQuote }) => {
-
-
   return (
     <article className="cardContainer">
       <div className="cardPhrase">
@@ -17,7 +15,10 @@ const CardPhrase = ({ quote, handleQuote }) => {
         </button>
       </div>
 
-      <div className="cardPlanet"></div>
+      <div className="planetContainer">
+        <div className="cardPlanet"></div>
+      </div>
+
       <footer className="cardFooter">
         <p>Fuente: {quote.author}</p>
       </footer>

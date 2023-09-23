@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    grid-template-rows: 1fr auto;
+
     text-align: center;
 }
 
@@ -79,6 +79,15 @@
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.918) 0%, rgb(97, 136, 210) 90%);
     opacity: 1;
 }
+
+.planetContainer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    filter: drop-shadow(0 0px 20px rgb(66, 22, 123));
+}
+
 
 @media (min-width:700px) {
 
