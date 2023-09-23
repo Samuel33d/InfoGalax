@@ -68,8 +68,8 @@
 }
 
 .cardPlanet {
-    height: 110px;
-    width: 350px;
+    min-height: 100px;
+    min-width: 320px;
     background-color: red;
     opacity: .5;
     position: absolute;
