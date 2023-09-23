@@ -1,0 +1,101 @@
+.cardContainer {
+    padding: .8rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 1fr auto;
+    text-align: center;
+}
+
+
+
+#card__title {
+    font-family: 'Digital Numbers', sans-serif;
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 1.9rem;
+    font-weight: 100;
+    text-shadow: 5px 5px 5px rgb(68, 19, 113);
+}
+
+#cardPharagraph {
+    font-weight: 600;
+
+    max-width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.8rem .8rem;
+    height: 230px;
+    border-radius: 3rem;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3533788515406162) 0%, rgba(255, 255, 255, 1) 100%);
+    color: rgb(49, 9, 86);
+    font-size: .9rem;
+}
+
+.cardPhrase {
+    gap: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Digital Numbers', sans-serif;
+}
+
+.cardBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .4rem;
+    background-color: #fff;
+    border: none;
+    font-size: 1.8rem;
+    border-radius: 100%;
+    cursor: pointer;
+    align-self: center;
+}
+
+.cardFooter {
+    color: #fff;
+    text-shadow: 3px 3px 10px black;
+    font-size: .9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    opacity: .7;
+    bottom: 1rem;
+    position: absolute;
+}
+
+.cardPlanet {
+    height: 180px;
+    width: 370px;
+    background-color: red;
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    clip-path: circle(50% at 50% 120%);
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.918) 0%, rgb(97, 136, 210) 90%);
+    opacity: 1;
+}
+
+@media (min-width:700px) {
+
+    .cardContainer {
+        justify-content: space-evenly;
+        position: relative;
+    }
+
+    .cardFooter {
+        position: absolute;
+        bottom: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .cardPlanet {
+        height: 500px;
+        width: 450px;
+    }
+
+}

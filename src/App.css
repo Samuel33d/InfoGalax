@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-size: cover;
+    background-position: center;
+}
+
+.main.bg1 {
+    background-image: url("/bg2.webp");
+}
+
+.main.bg2 {
+    background-image: url("/bg1.webp");
+}
+
+.main.bg3 {
+    background-image: url("/bg3.webp");
+}
+
+.main.bg4 {
+    background-image: url("/bg4.webp");
+}
