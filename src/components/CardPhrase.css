@@ -76,7 +76,7 @@
     bottom: 0;
     clip-path: circle(50% at 50% 120%);
     background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.918) 0%, rgb(94, 134, 210) 90%);
+    background: radial-gradient(circle, rgba(10, 10, 10, 0.704) 0%, rgba(250, 250, 250, 0.452) 0%, rgba(63, 96, 185, 0.306) 90%);
     opacity: 1;
 }
 
