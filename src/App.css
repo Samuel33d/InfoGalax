@@ -23,5 +23,16 @@ main {
 
 .main.bg4 {
     background-image: url("/bg4opt.webp");
+}
 
+.main.bg5 {
+    background-image: url("/bg5opt.webp");
+}
+
+.main.bg6 {
+    background-image: url("/bg6.jpg");
+}
+
+.main.bg7 {
+    background-image: url("/bg7opt.webp");
 }

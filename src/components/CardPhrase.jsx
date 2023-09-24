@@ -11,7 +11,7 @@ const CardPhrase = ({ quote, handleQuote }) => {
         <h1 id="card__title">InfoGalax</h1>
         <p id="cardPharagraph">{quote.phrase}</p>
         <button className="cardBtn" onClick={handleQuote}>
-          <PiArrowClockwiseBold />
+          <PiArrowClockwiseBold fill="#310956" />
         </button>
       </div>
 
