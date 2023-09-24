@@ -84,14 +84,9 @@
     background: rgb(255, 255, 255);
     background: radial-gradient(circle, rgba(10, 10, 10, 0.704) 0%, rgba(250, 250, 250, 0.452) 0%, rgba(63, 96, 185, 0.306) 90%);
     opacity: 1;
-    transition: all .8s;
-    transform: translateY(0px);
 }
 
-.cardPlanet:hover {
-    transition: all .8s;
-    transform: translateY(-8px);
-}
+
 
 .planetContainer {
     display: flex;
