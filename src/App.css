@@ -10,17 +10,18 @@ main {
 }
 
 .main.bg1 {
-    background-image: url("/bg2.webp");
+    background-image: url("/bg2opt.webp");
 }
 
 .main.bg2 {
-    background-image: url("/bg1.webp");
+    background-image: url("/bg1opt.webp");
 }
 
 .main.bg3 {
-    background-image: url("/bg3.webp");
+    background-image: url("/bg3opt.webp");
 }
 
 .main.bg4 {
-    background-image: url("/bg4.webp");
+    background-image: url("/bg4opt.webp");
+
 }

@@ -7,7 +7,6 @@ import { getRandomItem } from "./utilities/randomIndex";
 const bgSpace = ["bg1", "bg2", "bg3", "bg4"];
 
 function App() {
-
   const handleQuote = () => {
     setQuote(getRandomItem(curiosities));
     setToggleBg(getRandomItem(bgSpace));
@@ -18,7 +17,7 @@ function App() {
 
   return (
     <main className={`main ${toggleBg}`}>
-      <CardPhrase quote={quote} setQuote={setQuote} setToggleBg={setToggleBg} handleQuote={handleQuote}/>
+      <CardPhrase quote={quote} handleQuote={handleQuote} />
     </main>
   );
 }
