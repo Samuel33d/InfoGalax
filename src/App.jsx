@@ -9,14 +9,14 @@ const bgSpace = ["bg1", "bg2", "bg3", "bg4", "bg5", "bg6", "bg7"];
 function App() {
   const handleQuote = () => {
     setQuote(getRandomItem(curiosities));
-    setToggleBg(getRandomItem(bgSpace));
+    setChangeBg(getRandomItem(bgSpace));
   };
 
   const [quote, setQuote] = useState(getRandomItem(curiosities));
-  const [toggleBg, setToggleBg] = useState(getRandomItem(bgSpace));
+  const [changeBg, setChangeBg] = useState(getRandomItem(bgSpace));
 
   return (
-    <main className={`main ${toggleBg}`}>
+    <main className={`main ${changeBg}`}>
       <CardPhrase quote={quote} handleQuote={handleQuote} />
     </main>
   );
